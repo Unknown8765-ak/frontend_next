@@ -43,7 +43,7 @@ export const whySolar = [
     badge: "Electricity Savings",
     title: "Reduce your electricity bills by up to 80%",
     description:
-      "Generate your own clean and renewable energy while significantly reducing your monthly electricity expenses.",
+      "Generate your own clean and renewable energy while significantly reducing your monthly electricity expenses. Our advanced solar solutions are designed to maximize energy production, helping you save up to 80% on electricity bills. Enjoy uninterrupted power, greater energy independence, and protection from rising electricity costs. With premium-quality solar panels, expert installation, and minimal maintenance requirements, you can benefit from reliable performance for more than 25 years while contributing to a cleaner, greener, and more sustainable future for your family, your business, and the environment.",
     image: "/images/solar/solar-home.jpg",
     bg: "bg-blue-100",
     span: "lg:col-span-5 lg:row-span-2",
