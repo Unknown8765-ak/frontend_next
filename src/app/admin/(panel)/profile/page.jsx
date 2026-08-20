@@ -1,7 +1,6 @@
-import ProfileCard from "@/components/admin/profile/ProfileCard";
-import ProfileForm from "@/components/admin/profile/ProfileForm";
-import ChangePassword from "@/components/admin/profile/ChangePassword";
-
+import ProfileCard from "@/components/admin/Profile/ProfileCard";
+import ProfileForm from "@/components/admin/Profile/ProfileForm";
+import ChangePassword from "@/components/admin/Profile/ChangePassword";
 export const metadata = {
   title: "Admin Profile",
   description: "Manage admin profile and account security",
