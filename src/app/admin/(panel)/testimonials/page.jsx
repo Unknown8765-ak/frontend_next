@@ -1,4 +1,4 @@
-import TestimonialTable from "@/components/admin/testimonials/TestimonialTable";
+import TestimonialTable from "@/components/admin/Testimonials/TestimonialTable";
 
 export const metadata = {
   title: "Testimonials | Admin",
