@@ -6,10 +6,11 @@ const NavLinks = ({ mobile = false, setOpen }) => {
     <nav
       className={
         mobile
-          ? "flex flex-col gap-5"
-          : "flex items-center gap-6"
+          ? "flex flex-col gap-2"
+          : "flex items-center gap-8"
       }
     >
+      
       {navLink.map((item) => (
         <Link
           key={item.id}
@@ -21,10 +22,11 @@ const NavLinks = ({ mobile = false, setOpen }) => {
           }}
           className={
             mobile
-              ? "block w-full text-base font-medium text-slate-800 transition hover:text-blue-600"
-              : "text-sm font-medium text-slate-800 transition hover:text-blue-600"
+              ? "block w-full rounded-xl px-4 py-3 text-base font-semibold text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
+              : "font-medium text-slate-700 transition hover:text-blue-600"
           }
         >
+          {console.log("item",item)}
           {item.title}
         </Link>
       ))}

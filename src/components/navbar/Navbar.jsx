@@ -61,7 +61,7 @@ const Navbar = () => {
       {open && (
         <button
           type="button"
-          className="fixed inset-0 z-60 bg-black/40 lg:hidden"
+          className="fixed inset-0 z-40 bg-black/40 lg:hidden"
           onClick={() => setOpen(false)}
           aria-label="Close navigation menu"
         />
